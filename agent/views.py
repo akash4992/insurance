@@ -1,0 +1,21 @@
+from django.shortcuts import render
+def home(request):
+    return render(request,"home.html",{})
+def about_us(request):
+     return render(request,"about_us.html",{})
+def contact(request):
+    return render(request,"contact.html",{})
+def index(request):
+    return render(request,"index.html",{})
+def account(request):
+    return render(request,"account.html",{})
+def account1(request):
+    return render(request,"account1.html",{})
+def info(request):
+    return render(request,"info.html",{})
+def newsubmission(request):
+    return render(request,"newsubmission.html",{})
+def reneawal(request):
+    return render(request,"reneawal.html",{})
+def policy(request):
+    return render(request,"policy.html",{})
